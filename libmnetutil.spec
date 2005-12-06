@@ -3,6 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmnetutil - different utilities classes for portable networking C++ development
+Summary(pl):	libmnetutil - ró¿ne klasy narzêdziowe dla przeno¶nej obs³ugi sieci w C++
 Name:		libmnetutil
 Version:	0.3.0
 Release:	0.1
@@ -22,6 +23,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 libmnetutil contains different classes useful to write portable
 networking applications in C++. It includes UDP, TCP and TLS sockets,
 DNS resolving etc.
+
+%description -l pl
+Biblioteka libmnetutil zawiera ró¿ne klasy przydatne do pisania
+przeno¶nych aplikacji sieciowych w C++. Obejmuje gniazda UDP, TCP i
+TLS, rozwi±zywanie DNS itp.
 
 %package devel
 Summary:	Header files for libmnetutil library
