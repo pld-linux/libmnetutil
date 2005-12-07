@@ -6,7 +6,7 @@ Summary:	libmnetutil - different utilities classes for portable networking C++ d
 Summary(pl):	libmnetutil - ró¿ne klasy narzêdziowe dla przeno¶nej obs³ugi sieci w C++
 Name:		libmnetutil
 Version:	0.3.0
-Release:	0.1
+Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://www.minisip.org/source/%{name}-%{version}.tar.gz
