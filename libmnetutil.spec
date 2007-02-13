@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static library
 #
 Summary:	libmnetutil - different utilities classes for portable networking C++ development
-Summary(pl.UTF-8):   libmnetutil - różne klasy narzędziowe dla przenośnej obsługi sieci w C++
+Summary(pl.UTF-8):	libmnetutil - różne klasy narzędziowe dla przenośnej obsługi sieci w C++
 Name:		libmnetutil
 Version:	0.3.0
 Release:	1
@@ -31,7 +31,7 @@ TLS, rozwiązywanie DNS itp.
 
 %package devel
 Summary:	Header files for libmnetutil library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libmnetutil
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libmnetutil
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libmutil-devel >= %{version}
@@ -44,7 +44,7 @@ Pliki nagłówkowe biblioteki libmnetutil.
 
 %package static
 Summary:	Static libmnetutil library
-Summary(pl.UTF-8):   Statyczna biblioteka libmnetutil
+Summary(pl.UTF-8):	Statyczna biblioteka libmnetutil
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
